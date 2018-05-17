@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "BTGetSteps"
-  s.version      = "0.0.1"
-  s.summary      = "A short description of BTGetSteps."
+  s.version      = "1.0.0"
+  s.summary      = "A tool for get steps."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
                    A tool for get user steps by user CoreMotion and HealthKit.
                    DESC
 
-  s.homepage     = "http://EXAMPLE/BTGetSteps"
+  s.homepage     = "https://github.com/bit-tea-forwork/BTGetSteps/tree/1.0"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -53,7 +53,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "bit_tea" => "" }
+  s.author             = { "bit_tea" => "bit_tea@foxmail.com" }
   # Or just: s.author    = "bit_tea"
   # s.authors            = { "bit_tea" => "" }
   # s.social_media_url   = "http://twitter.com/bit_tea"
@@ -65,7 +65,8 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+
+   s.platform     = :ios, "8.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
