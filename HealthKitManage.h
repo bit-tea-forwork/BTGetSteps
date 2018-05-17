@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <HealthKit/HealthKit.h>
-#import <UIKit/UIKit.h>
+//#import <UIKit/UIKit.h>
 
 @interface HealthKitManage : NSObject
 

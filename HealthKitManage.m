@@ -46,21 +46,21 @@
             else
             {
                 NSLog(@"获取步数权限失败");
-                [self showTipsWindow];
+                //[self showTipsWindow];
             }
         }];
     }else{
-        [self showTipsWindow];
+        //[self showTipsWindow];
     }
 }
 
-- (void)showTipsWindow
-{
-    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"提示" message:@"获取步数权限失败,请在“健康-数据来源”中允许您的App获取健康数据(iPad或者是iPhone系统版本低于iOS 8无法使用计步功能)" preferredStyle:UIAlertControllerStyleAlert];
-    UIAlertAction *action = [UIAlertAction actionWithTitle:@"我知道了" style:UIAlertActionStyleCancel handler:nil];
-    [alert addAction:action];
-    [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:alert animated:YES completion:nil];
-}
+//- (void)showTipsWindow
+//{
+//    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"提示" message:@"获取步数权限失败,请在“健康-数据来源”中允许您的App获取健康数据(iPad或者是iPhone系统版本低于iOS 8无法使用计步功能)" preferredStyle:UIAlertControllerStyleAlert];
+//    UIAlertAction *action = [UIAlertAction actionWithTitle:@"我知道了" style:UIAlertActionStyleCancel handler:nil];
+//    [alert addAction:action];
+//    [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:alert animated:YES completion:nil];
+//}
 
 /*!
  * @brief 写权限
